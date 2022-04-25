@@ -1,6 +1,4 @@
-# PRG08-2022-week3
-Inleveropdracht PRG08 2022 Week 3
-
+🤘GestureBeat👍🎶
 
 Dit project werd gemaakt als deel van een assignment voor Programmeren 8.
 
@@ -9,7 +7,7 @@ Lees data uit met javascript en geef feedback aan de gebruiker via de UI.
 Bouw een eenvoudige UI voor dit concept met HTML en CSS. De gebruiker hoeft dus niet in de console te kijken.
 
 
-🤘GestureBeat👍🎶
+🎶Project🎶
 
 Project 👉 : https://www.youtube.com/watch?v=nk0pNSxGqP0
 
