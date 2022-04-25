@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Handsfree library -->
+    <!-- <link href="https://unpkg.com/handsfree@8.1.1/build/lib/assets/handsfree.css" type="text/css" />
+    <script src="https://unpkg.com/handsfree@8.1.1/build/lib/handsfree.js"></script> -->
+
+    <!-- MediaPipe library  -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+    <!-- css & js -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script defer src="js/main.js"></script>
+
+    <title>GestureBeat</title>
+
+</head>
+
+<body>
+<header>
+    <img class="header-img" src="img/soundwave.png" alt="header image">
+</header>
+<nav>
+    <ul class="nav-link">
+        <li>
+            <a href="index.html">Home</a>
+            <a href="playBeat.html">Musical Tool</a>
+        </li>
+    </ul>
+</nav>
+<div>
+    <h1>GestureBeat</h1>
+</div>
+<div>
+    <h3>By: Christel Carbajal</h3>
+</div>
+<div class="container">
+    <div class="box>">
+        <video class="input_video" width="640px" height="360px"></video>
+    </div>
+    <div class="box">
+        <canvas class="output_canvas" width="640px" height="360px"></canvas>
+    </div>
+</div>
+<footer></footer>
+</body>
+
+</html>
